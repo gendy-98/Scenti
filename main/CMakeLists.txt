@@ -1,0 +1,12 @@
+idf_component_register(SRCS "main.c"
+                            "http_server.c"
+                            "http_handel.c"
+                            "PWM.c"
+                            "LED.c"
+                            "wifi.c"
+                            "main_task.c"
+                            "json_message.c"
+                            "Ready_spiffs.c"
+                            "wifi_helper.c"
+                            "esp_enum_helper"
+                    INCLUDE_DIRS ".")
